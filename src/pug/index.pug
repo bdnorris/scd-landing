@@ -1,13 +1,13 @@
 extends layouts/default.pug
 
 block content
-  section
-    article
-      h1= 'Pug Starter'
-      - var pets = ['cat', 'dog']
-      each petName in pets
-        p= petName
-      p &ldquo;Because George wants to invite him to the ball," said Fred sarcastically.  "Because we want to send a letter, you stupid great prat," said George. "Who do you two keep writing to, eh?" said Ron. "Nose out, Ron, or I&rsquo;ll burn that for you too," said Fred, waving his wand threateningly. "So . . . you lot got dates for the ball yet?&rdquo;
-      h2 Heading 2
-      h3 Heading 3
-      h4 Heading 4
+  main
+    section
+      div
+        form(action='https://send.pageclip.co/FHtAGPgnMI7ZQQutEqXiyh1QvLPqJXov' class='pageclip-form' method='post')
+          <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+          input(type='text' name='name' value='Roscoe Jones')
+          input(type='email' name='email' value='roscoe@example.com')
+          <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+          button(type='submit' class='pageclip-form__submit')
+            span= 'Send'
