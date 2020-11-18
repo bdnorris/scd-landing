@@ -1,10 +1,25 @@
 // * forms and form input styling
 
+.form {
+  @include default-sizing(700px);
+}
+
 input[type='text'],
 input[type='email'],
 input[type='tel'],
 textarea {
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5em;
+}
 
+label {
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+textarea {
+  height: 6em;
 }
 
 

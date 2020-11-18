@@ -1,1 +1,9 @@
 // * General Header or Site Header
+
+header {
+  div {
+    @include default-sizing(700px);
+    margin-top: 4vw;
+    margin-bottom: 2em;
+  }
+}

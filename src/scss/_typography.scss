@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
   color: $text;
+  font-weight: 500;
 }
 
 // Scale based on Jason Pamental's
@@ -7,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .h1 {
   font-family: $sans;
-  font-weight: 800;
+  // font-weight: 800;
   line-height: 1.25;
   letter-spacing: -1.5px;
   font-size: em(32);
