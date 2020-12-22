@@ -1,3 +1,3 @@
-# Pugsley
+# SCD Landing
 
-Custom static site builder with Pug, JS Modules and Sass.
+Simple landing page placeholder with a Netlify form. 
